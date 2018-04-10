@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+<div class="top">
+    发现
+</div>
+<div class="content">
+    <div class="content-img">
+        <img src="img/images/t1_07.png" alt="">
+    </div>
+    <p>登录后可查看订单、收藏记录</p>
+    <div class="login">登录</div>
+</div>
+<div class="daohang">
+    <a href="index.html">
+        <div class="daohang1">
+            &#xe613;
+            <span>首页</span>
+        </div>
+    </a>
+    <a href="find.html">
+        <div class="daohang1 daohang2">
+            &#xe612;
+            <span>发现</span>
+        </div>
+    </a>
+    <a href="book.html">
+        <div class="daohang1 daohang2 daohang3">
+            &#xe645;
+            <span>订单</span>
+        </div>
+    </a>
+    <a href="person.html">
+        <div class="daohang1 daohang2">
+            &#xe62f;
+            <span>我的</span>
+        </div>
+    </a>
+</div>
+<div class="gerenjiemian">
+    <div class="geren_shang">
+        <div class="cha">×</div>
+        <div class="yanzheng">手机验证</div>
+        <div class="kefu">联系客服</div>
+    </div>
+    <div class="neirong">
+        <input type="text" placeholder="请输入手机号" style="width:6.5rem;height: 1rem" class="shurukuang">
+        <div class="yanzheng1">验证</div>
+    </div>
+    <div class="yanzheng_hong">
+        <p>收不到验证码?点击接受语音验证码</p>
+    </div>
+    <div class="yanzhengma">
+        <input type="text" placeholder="请输入验证码" style="width: 10.2rem;height: 1rem">
+    </div>
+    <div class="kaishi">开始</div>
+    <div class="xieyi">《用户服务协议》</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(".login").click(function () {
+        $(".gerenjiemian").slideDown();
+    })
+    $(".cha").click(function () {
+        $(".gerenjiemian").slideUp();
+    })
+</script>
+</body>
+</html>

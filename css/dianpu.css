@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 620808 */
+    src: url('https://at.alicdn.com/t/font_620808_zjkd9m62i5sl9pb9.eot');
+    src: url('https://at.alicdn.com/t/font_620808_zjkd9m62i5sl9pb9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_620808_zjkd9m62i5sl9pb9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_620808_zjkd9m62i5sl9pb9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_620808_zjkd9m62i5sl9pb9.svg#iconfont') format('svg');
+}
+.top{
+    width: 100%;
+    height: 3.82rem;
+    background: #895522;
+    padding-top:0.01rem;
+    position: relative;
+}
+.to-top{
+    width: 100%;
+    height: 1.2rem;
+    padding:0 0.2rem;
+    line-height:1.2rem;
+    font-family: 'iconfont';
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.to-top a{
+    line-height: 1.2rem;
+    font-family: 'iconfont';
+    color: #fff;
+    font-size: 24px;
+    background: #895522;
+}
+.top img{
+    width: 2.44rem;
+    height: 2.46rem;
+    position: absolute;
+    bottom:-0.3rem;
+    left:0.3rem;
+}
+.top h5{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 1.72rem;
+    margin-left: 3.05rem;
+    font-weight:normal;
+}
+.top p{
+    color: #D1CBB7;
+    font-size: 14px;
+    margin-top: 0.06rem;
+    margin-left: 3.05rem;
+}
+.top-nav{
+    width: auto;
+    height: 0.6rem;
+    margin-top: 0.06rem;
+    margin-left: 3.05rem;
+}
+.top-nav1{
+    width: 1.6rem;
+    height: 0.52rem;
+    border-radius: 0.25rem;
+    border:0.02rem solid #CFA654;
+    color: #CFA654;
+    font-size: 12px;
+    line-height: 0.47rem;
+    text-align: center;
+    float: left;
+}
+.top-nav2{
+    margin-left: 0.28rem;
+}
+.list{
+    width: 100%;
+    height: 1.16rem;
+    line-height: 1rem;
+    padding: 0 1.3rem;
+    margin-top: 0.32rem;
+    border-bottom:0.01rem solid #F4F4F4;
+}
+.list span{
+    height: 100%;
+    width: auto;
+    text-align: center;
+    line-height: 1.16rem;
+    font-size: 16px;
+    color:#636363;
+    padding-bottom: 0.18rem;
+}
+.list span:hover{
+    border-bottom: 0.02rem solid #FDB000;
+}
+.list-span2{
+    margin-left: 2.06rem;
+}
+.left-list{
+    width: 2.24rem;
+    height: auto;
+    float: left;
+    margin-bottom: 1.5rem;
+}
+.left-list-nav1{
+    width: 100%;
+    height: 1.57rem;
+    line-height: 1.57rem;
+    text-align: center;
+    color: #787878;
+    font-size: 14px;
+}
+.right-list{
+    width: 8.15rem;
+    height: auto;
+    float: right;
+}
+.right-list h5{
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+.item{
+    width: 100%;
+    height: 3.39rem;
+}
+.item img{
+    width: 2.44rem;
+    height: 2.46rem;
+    float: left;
+}
+.rightlist-word{
+    float: left;
+}
+.rightlist-word h5{
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3rem;
+}
+.rightlist-word i{
+    float: left;
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3rem;
+}
+.rightlist-word p{
+    color: #FC4B43;
+    font-size: 14px;
+    margin-left: 0.3rem;
+}
+.buy{
+    width: 100%;
+    height: 1.5rem;
+    background: #404040;
+    position: fixed;
+    bottom:0;
+    left:0;
+    line-height:1.1rem;
+}
+.buy-car{
+    width: 1.51rem;
+    height: 1.51rem;
+    border-radius: 50%;
+    position: absolute;
+    top:-0.3rem;
+    left:0.3rem;
+    background: url("../img/images/buy.png");
+    background-size: cover;
+    background-position: center;
+}
+.buy span{
+    margin-left: 2rem;
+    font-size: 14px;
+    color: #989898;
+}
+.buy em{
+    float: right;
+    font-size: 18px;
+    color: #989898;
+    line-height:1.4rem;
+    padding-right: 0.4rem;
+}

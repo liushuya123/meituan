@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 620808 */
+    src: url('https://at.alicdn.com/t/font_620808_qcofewf501fywrk9.eot');
+    src: url('https://at.alicdn.com/t/font_620808_qcofewf501fywrk9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_620808_qcofewf501fywrk9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_620808_qcofewf501fywrk9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_620808_qcofewf501fywrk9.svg#iconfont') format('svg');
+}
+.banner{
+    width: 100%;
+    height: 7.71rem;
+    position: relative;
+}
+.cloose{
+    width: 0.95rem;
+    height: 0.93rem;
+    position: absolute;
+    top:0.21rem;
+    left:0.28rem;
+}
+.information{
+    height: 3.94rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 0.02rem solid #F2F2F2;
+}
+.information p{
+    font-size: 14px;
+    color: #B9B9B9;
+}
+.tuijian{
+    width: 1rem;
+    height: 0.6rem;
+    border:0.02rem solid #FB513A;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 12px;
+    color: #FB513A;
+    margin-top: 0.2rem;
+}
+.information em{
+    color: #FC4F3F;
+    font-size: 18px;
+    float: left;
+    margin-top: 0.1rem;
+}
+.xinxi{
+    width: 100%;
+    height: 3.82rem;
+    background: #fff;
+    padding:0.58rem 0.39rem;
+}
+.xinxi h5{
+    font-size: 16px;
+    color: #979797;
+    margin-bottom: 0.45rem;
+}
+.xinxi p{
+    font-size: 12px;
+    color: #717171;
+}
+.think{
+    width: 10.45rem;
+    height: 1.22rem;
+    border-bottom:0.01rem solid #e8e8e8;
+    float: right;
+    line-height:1.22rem;
+    padding:0 0.1rem;
+}
+.think h5{
+    width: 1.9rem;
+    font-size: 16px;
+    color: #3F3F3F;
+    float: left;
+}
+.think span{
+    float: right;
+    font-size: 20px;
+    font-family: 'iconfont';
+}
+.think-item{
+    height: auto;
+    margin-bottom:1.5rem;
+    float: right;
+}
+.think-content{
+    height: 2.27rem;
+    padding: 0.28rem 0;
+}
+.touxiang-img{
+    width: 1.22rem;
+    height: 1.22rem;
+    border-radius: 50%;
+    background: url("../img/images/t1_07.png");
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.think-wenzi{
+    width: 8.4rem;
+    height: auto;
+    float: right;
+    margin-left: 0.3rem;
+}
+.think-title{
+    width: 8.4rem;
+    height: 0.9rem;
+    line-height: 0.6rem;
+    padding-right: 0.9rem;
+}
+.think-title h5{
+    float: left;
+}
+.think-title span{
+    font-size: 12px;
+    color: #C3C3C3;
+    float: right;
+}
+.think-wenzi .p{
+    font-size: 14px;
+    float: left;
+    width: 8.4rem;
+    float: left;
+    line-height: 0.2rem;
+}
+.think-wenzi .p i{
+    font-family: 'iconfont';
+    font-size: 14px;
+    color: red;
+}
+.think-wenzi p{
+    font-size: 14px;
+    margin-top: 0.04rem;
+    line-height: 0.9rem;
+}
+.buy{
+    width: 100%;
+    height: 1.5rem;
+    background: #404040;
+    position: fixed;
+    bottom:0;
+    left:0;
+    line-height:1.1rem;
+}
+.buy-car{
+    width: 1.51rem;
+    height: 1.51rem;
+    border-radius: 50%;
+    position: absolute;
+    top:-0.3rem;
+    left:0.3rem;
+    background: url("../img/images/buy.png");
+    background-size: cover;
+    background-position: center;
+}
+.buy span{
+    margin-left: 2rem;
+    font-size: 14px;
+    color: #989898;
+}
+.buy em{
+    float: right;
+    font-size: 18px;
+    color: #989898;
+    line-height:1.4rem;
+    padding-right: 0.4rem;
+}

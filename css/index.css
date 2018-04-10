@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 620808 */
+    src: url('https://at.alicdn.com/t/font_620808_z9x2cuvn0442t9.eot');
+    src: url('https://at.alicdn.com/t/font_620808_z9x2cuvn0442t9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_620808_z9x2cuvn0442t9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_620808_z9x2cuvn0442t9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_620808_z9x2cuvn0442t9.svg#iconfont') format('svg');
+}
+body{
+    background: #F4F4F4;
+}
+.top{
+    width: 100%;
+    height: 1.44rem;
+    padding:0 0.43rem;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:2999;
+}
+.weather{
+    width: 0.76rem;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 0.11rem;
+    color: #656565;
+    float: left;
+}
+.weather p{
+    font-family: 'iconfont';
+    font-size: 24px;
+}
+.weather span{
+    font-size: 14px;
+    margin-top: 0.05rem;
+}
+.address{
+    width: 1.9rem;
+    height: 100%;
+    text-align: center;
+    line-height: 1.44rem;
+    font-size: 18px;
+    color: #656565;
+    float: left;
+}
+.address em{
+    font-size: 12px;
+    font-family: 'iconfont';
+    margin-left: 0.11rem;
+    color: #656565;
+}
+.search{
+    width: 6.21rem;
+    height: 0.88rem;
+    border-radius: 1rem;
+    background: #EEEEEE;
+    margin-top: 0.27rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+.search-icon{
+    font-family: 'iconfont';
+    font-size: 20px;
+    width: 0.54rem;
+    height: 0.58rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    float: left;
+    border:none;
+    background: #eeeeee;
+    outline: none;
+    color: #666666;
+}
+.search-word{
+    border:none;
+    background: #eeeeee;
+    float: left;
+    width: 4.95rem;
+    height: 0.8rem;
+    margin-top: 0.05rem;
+    margin-left: 0.19rem;
+    line-height: 0.88rem;
+    outline: none;
+    color: #666666;
+}
+.add{
+    height: 1.44rem;
+    line-height:1.24rem;
+    font-size: 30px;
+    color: #666666;
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 2.9rem;
+    border-top:0.02rem solid #EDEFEE;
+    background: #00A0CE;
+    margin-top: 1.44rem;
+    position: relative;
+    overflow: hidden;
+}
+.banner-img{
+    width: 32.4rem;
+    height: 2.9rem;
+}
+.banner-img img{
+    float: left;
+}
+.banner-nav{
+    position: absolute;
+    width: 2.12rem;
+    height: 0.2rem;
+    bottom:0.05rem;
+    left:4.8rem;
+    z-index:999;
+}
+.banner-nav-first{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background-color: #b5b5b5;
+    float: left;
+    margin-left: 0.2rem;
+}
+.banner-nav-first.active{
+    background: #fff;
+}
+.icons{
+    width: 100%;
+    height: 7.31rem;
+    padding:0.58rem 0.23rem;
+    background: #fff;
+}
+.icon-five{
+    height: 1.96rem;
+}
+.icon1{
+    width: 1.9rem;
+    height: 1.96rem;
+    color: #6B6B6B;
+    font-size: 0.3rem;
+    text-align: center;
+    float: left;
+}
+.icon2{
+    margin-left: 0.2rem;
+}
+.icon1 img{
+    width: 1.37rem;
+    height: 1.37rem;
+    margin:0 auto;
+    margin-bottom: 0.1rem;
+}
+.icon-line{
+    width: 9.84rem;
+    height: 0.02rem;
+    background: #F7F7F7;
+    margin:0 auto;
+    margin-top: 0.56rem;
+}
+.icon-top{
+    height: 1.28rem;
+    margin-top: 0.38rem;
+}
+.icon-ten-first{
+    width: 2rem;
+    height: 1.28rem;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.icon-ten-first p{
+    font-family: 'iconfont';
+    font-size: 20px;
+}
+.icon-bottom{
+    margin-top: 0.67rem;
+}
+.forexample{
+    width: 100%;
+    height: 7.26rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    padding:0.28rem;
+}
+.fe-img1{
+    width: 3.28rem;
+    height: 6.68rem;
+    float: left;
+    margin-right: 0.24rem;
+}
+.fe-img2{
+    width: 6.71rem;
+    height: 3.21rem;
+    margin-bottom: 0.24rem;
+}
+.fe-img3{
+    width: 3.14rem;
+    height: 3.22rem;
+    float: left;
+    margin-right: 0.24rem;
+}
+.fe-img4{
+    width: 3.32em;
+    height: 3.22rem;
+    float: left;
+}
+.row-img{
+    width: 100%;
+    height: 2.7rem;
+    margin-top: 0.3rem;
+}
+.like{
+    margin-top: 0.3rem;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding:0 0.3rem;
+    margin-bottom: 1.5rem;
+}
+.like-title{
+    width: 100%;
+    height: 1.04rem;
+    line-height:1rem;
+    text-align: center;
+    font-size: 12px;
+    color: #CECECE;
+}
+.like-nav1{
+    width: 10.22rem;
+    height: 3.52rem;
+    border-bottom: 0.01rem solid #F0F0F0;
+}
+.like-nav1 img{
+    width: 2.4rem;
+    height: 2.4rem;
+    float: left;
+    margin-top: 0.45rem;
+    margin-right: 0.37rem;
+}
+.like-word{
+    width: 6.72rem;
+    height: 2.55rem;
+    float: left;
+    margin-top: 0.4rem;
+}
+.like-word-title{
+    height: 0.6rem;
+}
+.like-word h5{
+    float: left;
+    font-size: 16px;
+}
+.waimai{
+    width: 0.77rem;
+    height: 0.45rem;
+    border-radius: 0.05rem;
+    background: #FAEB2E;
+    border:#B99062;
+    color: #B99062;
+    text-align: center;
+    line-height: 0.45rem;
+    font-size: 12px;
+    float: left;
+    margin-left: 0.18rem;
+    margin-top: 0.1rem;
+}
+.like-word p{
+    margin-top: 0.25rem;
+    font-size: 12px;
+    color: #767676;
+}
+.like-word p span{
+    margin-left: 0.39rem;
+}
+.free{
+    width: 3.55rem;
+    height: 0.45rem;
+    text-align: center;
+    line-height: 0.45rem;
+    border-radius: 0.5rem;
+    background: #FFF4F2;
+    border:0.01rem solid #F1D3D1;
+    color: #FF675C;
+    font-size: 0.08rem;
+    margin-top: 0.2rem;
+}
+.daohang{
+    width: 100%;
+    height: 1.5rem;
+    border-top: 0.02rem solid #E6E6E6;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background: #fff;
+    padding:0.18rem 0.88rem 0;
+}
+.daohang1{
+    width: 0.84rem;
+    height: 100%;
+    text-align: center;
+    font-family: 'iconfont';
+    font-size: 18px;
+    float: left;
+}
+.daohang2{
+    margin-left: 1.8rem;
+}
+.daohang1 span{
+    text-align: center;
+    font-size: 12px;
+}
+.daohang3{
+    color:#26B1B4;
+}
+
+
+.fan{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+    top:0;
+    z-index:9999;
+    line-height: 1.44rem;
+    overflow-y: scroll;
+    display: none;
+}
+.top{
+    background-color: #fff;
+    height: 1.44rem;
+    width: 100vw;
+}
+.cha{
+    float: left;
+}
+.chaopai{
+    font-size: 0.6rem;
+    float: left;
+    margin-left: 1rem;
+}
+.fan_xiangqing{
+    position: absolute;
+    top:1.64rem;
+    background-color: #fff;
+    font-size: 0.4rem;
+}
+
+.fan_xq_top{
+    width: 100vw;
+    height: 1rem;
+    border-bottom: 0.02rem dashed #ccc;
+}
+.dian{
+    float: left;
+    margin-left: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.pingjia{
+    float: right;
+    margin-right: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.peisong{
+    float: right;
+    margin-right: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.fan_xq_neirong{
+    width: 100vw;
+
+    background-color: #fff;
+    position: absolute;
+    top:1rem;
+}
+.fanfan{
+    margin-bottom: 0.3rem;
+    height: 3rem;
+    width: 100vw;
+    border-bottom:0.02rem solid #ccc;
+    position: relative;
+}
+.fan_xq_tu{
+    width: 3rem;
+    height: 2.4rem;
+    background-color: #ccc;
+    margin-top: 0.3rem;
+    margin-left:0.3rem;
+    float: left;
+}
+.fan_fanxiangqing{
+    float: left;
+    position: relative;
+    height: 3rem;
+}
+.fanming{
+    /*float: left;*/
+    margin-left: 0.3rem;
+    font-size: 0.5rem;
+    height: 0.8rem;
+    line-height: 1.2rem;
+}
+.shengyu{
+    margin-left: 0.3rem;
+    height: 1rem;
+    /*line-height: 1rem;*/
+}
+.fan_tiao{
+    width: 4rem;
+    height: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: #ff6700;
+    float: left;
+    margin-left:0.3rem;
+}
+.jiage{
+    position: absolute;
+    bottom: 0;
+    left:0.3rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.6rem;
+    color: #ff6700;
+}
+.qianjiage{
+    position: absolute;
+    bottom: 0;
+    left:1.5rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-decoration: line-through;
+}
+.fan_qiang{
+    width: 2rem;
+    height: 1rem;
+    background-color: #ff6700;
+    /*float: right;*/
+    text-align: center;
+    border-radius: 0.1rem;
+    color: #fff;
+    line-height: 1rem;
+    position: absolute;
+    bottom:0.3rem;
+    right:0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

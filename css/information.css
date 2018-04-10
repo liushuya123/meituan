@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 620808 */
+    src: url('https://at.alicdn.com/t/font_620808_f7den7uwebmg3nmi.eot');
+    src: url('https://at.alicdn.com/t/font_620808_f7den7uwebmg3nmi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_620808_f7den7uwebmg3nmi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_620808_f7den7uwebmg3nmi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_620808_f7den7uwebmg3nmi.svg#iconfont') format('svg');
+}
+body{
+    background:#F1F1F1;
+}
+.top{
+    width: 100%;
+    height: 1.4rem;
+    padding-left: 0.43rem;
+    background: #F9F9F9;
+    border-bottom: 0.02rem solid #B3B3B3;
+    font-size: 18px;
+    color: #676767;
+    line-height:1.4rem;
+}
+.top a{
+    background: #F9F9F9;
+    font-family: 'iconfont';
+    font-size: 18px;
+    color: #676767;
+    line-height: 1.4rem;
+}
+.top span{
+    color: #525252;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 0.3rem;
+}
+.item{
+    width: 100%;
+    height: 1.36rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #F7F7F7;
+    padding:0 0.4rem;
+    color: #333333;
+    font-size: 16px;
+    line-height:1.36rem;
+}
+.item i{
+    font-family: 'iconfont';
+    float: right;
+    color: #909090;
+}
+.item span{
+    float: right;
+    margin-right: 0.22rem;
+}
+.item h5{
+    font-size: 16px;
+    float: right;
+    margin-right: 0.22rem;
+    font-weight: 400;
+    color: #7CCDC5;
+}
+.item em{
+    font-size: 18px;
+    color: #D7703E;
+    margin-left: 0.1rem;
+}
