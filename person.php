@@ -21,14 +21,16 @@
         &#xe61c;
     </div>
     <div class="top-img"></div>
-    <h5 class="title-h5"><?php
-                session_start();
-                if($_SESSION["qqq"]){
-                    echo $user;
-                }else{
-                    echo "请登录";
-                }
-?></h5>
+    <h5 class="title-h5">
+        <?php
+        session_start();
+        if(isset($_SESSION["qqq"])){
+            echo $_SESSION["qqq"];
+        }else{
+            echo "请点击登录";
+        }
+        ?></h5>
+
 </div>
 <div class="part1">
     <div class="part-1">

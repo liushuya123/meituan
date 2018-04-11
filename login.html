@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+<div class="newtop">
+    <a href="book.html"><i class="cloose">×</i></a>
+    登录美团
+    <em>注册</em>
+</div>
+<p class="top-p">推荐登录方式</p>
+<div class="weixin">
+    <i>&#xe629;</i>
+    微信登录
+</div>
+<p class="top-p top-p1">或</p>
+<a href="phone.html">
+    <div class="phone">
+        使用手机号登录注册
+    </div>
+</a>
+<p class="top-p method">使用其他方式登录</p>
+<p class="bottom">登录代表你已同意<span>《美团网用户协议》</span></p>
+<div class="other">
+    <div class="upother"></div>
+    <div class="other-bottom">
+        <div class="other-method">
+            <span>
+                <img src="img/images/11.png" alt="">
+                QQ
+            </span>
+            <span class="other-span">
+                <img src="img/images/12.png" alt="">
+                微博
+            </span>
+            <a href="loginin.html">
+            <span>
+                <img src="img/images/13.png" alt="">
+                账号密码
+            </span>
+            </a>
+        </div>
+        <p>取消</p>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(".method").click(function () {
+        $(".other").slideDown();
+    })
+    $(".other-bottom p").click(function () {
+        $(".other").slideUp();
+    })
+</script>
+</body>
+</html>
